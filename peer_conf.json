@@ -1,14 +1,14 @@
-{"LOOPCHAIN_DEFAULT_CHANNEL": "channel1","DEFAULT_SCORE_BRANCH": "master"}
 {
     "LOOPCHAIN_DEFAULT_CHANNEL" : "channel1",
     "DISABLE_V1_API" : false,
     "STORE_VALID_TRANSACTION_ONLY" : false,
     "USE_GUNICORN_HA_SERVER" : true,
     "CHANNEL_OPTION" : {
-        "nia_kyobo_claim" : {
+        "channel1" : {
             "store_valid_transaction_only" : false,
             "send_tx_type" : 0,
             "load_cert" : false,
+            "consensus_cert_use": false,
             "tx_cert_use": false,
             "key_load_type" : 0,
             "public_path": "/resources/default_pki/public.der",
