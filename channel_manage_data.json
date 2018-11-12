@@ -1,1 +1,17 @@
-{"channel1": {"score_package": "loopchain/default"} } 
+{
+  "channel1": {
+    "score_package": "loopchain/default",
+    "peers": [
+      {
+        "peer_target": "192.100.20.40:7100"
+      },
+      {
+        "peer_target": "121.78.119.155:7100"
+      },
+      {
+        "peer_target": "192.168.30.117:7100"
+      }
+    ]
+  }
+}
+
