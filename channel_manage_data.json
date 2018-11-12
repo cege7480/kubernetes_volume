@@ -1,9 +1,12 @@
 {
-  "channel1": {
-    "score_package": "loopchain/default",
+  "loopchain_default": {
+    "score_package": "score/icx",
     "peers": [
       {
-        "peer_target": "100.66.164.27:7100"
+        "peer_target": "10.10.57.65:7100"
+      },
+      {
+        "peer_target": "10.10.57.44:7100"
       }
     ]
   }

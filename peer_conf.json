@@ -1,5 +1,5 @@
 {
-    "LOOPCHAIN_DEFAULT_CHANNEL" : "channel1",
+    "LOOPCHAIN_DEFAULT_CHANNEL" : "loopchain_default",
     "DISABLE_V1_API" : false,
     "STORE_VALID_TRANSACTION_ONLY" : false,
     "USE_GUNICORN_HA_SERVER" : true,
@@ -13,7 +13,7 @@
             "key_load_type" : 0,
             "public_path": "/resources/default_pki/public.der",
             "private_path": "/resources/default_pki/private.der",
-            "private_password": "@dlemonwonkyobo"
+            "private_password": "jaejin"
         }
     }
 }
