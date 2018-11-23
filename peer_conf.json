@@ -1,20 +1,24 @@
-{
-    "LOOPCHAIN_DEFAULT_CHANNEL" : "loopchain_default",
-    "DISABLE_V1_API" : false,
-    "STORE_VALID_TRANSACTION_ONLY" : false,
-    "USE_GUNICORN_HA_SERVER" : true,
-    "CHANNEL_OPTION" : {
-        "channel1" : {
-            "store_valid_transaction_only" : false,
-            "send_tx_type" : 0,
-            "load_cert" : false,
-            "consensus_cert_use": false,
-            "tx_cert_use": false,
-            "key_load_type" : 0,
-            "public_path": "/resources/default_pki/public.der",
-            "private_path": "/resources/default_pki/private.der",
-            "private_password": "jaejin"
-        }
+OPCHAIN_DEFAULT_CHANNEL": "loopchain_default",
+  "CHANNEL_OPTION" : {
+    "loopchain_default": {
+        "store_valid_transaction_only": true,
+        "send_tx_type": 2,
+        "load_cert": false,
+        "consensus_cert_use": false,
+        "tx_cert_use": false,
+        "tx_hash_version": 1,
+        "genesis_tx_hash_version": 0,
+        "key_load_type": 0,
+        "public_path": "/loopchain/conf/keys/public.pem",
+        "private_path": "/loopchain/conf/keys/private.pem",
+        "private_password": "jaejin",
+        "genesis_data_path": "/loopchain/conf/genesis.json"
     }
+  },
+  "USE_EXTERNAL_SCORE": true,
+  "USE_EXTERNAL_REST": true,
+  "PORT_PEER": 7100,
+  "AMQP_KEY": "7100",
+  "ALLOW_MAKE_EMPTY_BLOCK": false
 }
 
