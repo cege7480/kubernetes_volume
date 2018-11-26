@@ -1,4 +1,5 @@
-OPCHAIN_DEFAULT_CHANNEL": "loopchain_default",
+{
+  "LOOPCHAIN_DEFAULT_CHANNEL": "loopchain_default",
   "CHANNEL_OPTION" : {
     "loopchain_default": {
         "store_valid_transaction_only": true,
